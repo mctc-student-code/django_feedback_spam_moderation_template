@@ -1,5 +1,4 @@
 from django.db import models
-from datetime import datetime
 
 class Feedback(models.Model):
     text = models.TextField(blank=False, max_length=1000)
